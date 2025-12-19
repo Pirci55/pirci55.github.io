@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirci's place</title>
+    <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/style.css">
+</head>
+
+<body>
+    <button id="toggle-paint" class="toggle-paint-button">Draw! :3</button>
+    <canvas id="overlay"></canvas>
+    <div class="page-container">
+        <section class="header-section">
+            <div class="header-title-container">
+                <h3 class="header-title">Pirci's place</h3>
+            </div>
+            <nav class="header-nav">
+                <a href="#">>ㅤ</a>
+                <a href="#car-anchor">Le Car</a>
+                <a href="#contacts-anchor">Contacts</a>
+            </nav>
+        </section>
+        <section class="body-section">
+            <div class="welcome-text-container">
+                <h1 class="welcome-text">
+                    HI! <span class="wawe-hand">👋</span>
+                </h1>
+            </div>
+            <div class="main-content-container">
+                <div id="car-anchor" class="content-item">
+                    <div class="video-container">
+                        <video loop muted autoplay src="./public/car_physics_video.mp4"></video>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            I have created a physical simulation of wheels and suspension for a car. The car is rolling here ⇑
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="contacts-anchor" class="contacts-container">
+                <h3 class="contacts-title">Contacts</h3>
+                <div class="contacts-list">
+                    <a target="_blank" href="https://github.com/Pirci55">Github</a>
+                    <a target="_blank" href="mailto:nou93gm@gmail.com">Email <span>nou93gm@gmail.com</span></a>
+                </div>
+            </div>
+            <div class="painting-image-container">
+                <img class="painting-image" src="./public/painting_image.png" alt="Paint me">
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="footer-some-text-container">
+                <p class="footer-some-text">2025 Pirci</p>
+            </div>
+            <div class="footer-title-container">
+                <h1 class="footer-title-part">O</h1>
+                <h1 class="footer-title-part">W</h1>
+                <h1 class="footer-title-part">O</h1>
+            </div>
+        </section>
+    </div>
+    <script src="./dist/script.js"></script>
+</body>
+
+</html>
