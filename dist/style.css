@@ -31,7 +31,7 @@ body .toggle-paint-button {
   opacity: 0.6;
   transition: 0.33s;
 }
-@media (max-width: 720px) {
+@media (max-width: 720px), (max-height: 720px) {
   body .toggle-paint-button {
     display: none;
   }
