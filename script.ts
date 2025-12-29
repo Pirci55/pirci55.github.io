@@ -3,7 +3,7 @@ window.onload = function () {
     const canvas_overlay = document.getElementById('overlay') as HTMLCanvasElement;
 
     const intersection_observer = new IntersectionObserver(intersection_observer_callback, {
-        threshold: 0.1
+        threshold: 0.2
     });
     const mouse = {
         x: 0, y: 0,

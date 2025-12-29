@@ -2,7 +2,7 @@ window.onload = function () {
     var videos = document.querySelectorAll('video');
     var canvas_overlay = document.getElementById('overlay');
     var intersection_observer = new IntersectionObserver(intersection_observer_callback, {
-        threshold: 0.1
+        threshold: 0.2
     });
     var mouse = {
         x: 0, y: 0,
